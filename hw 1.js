@@ -6,8 +6,8 @@ alert(a);
 */
 
 /* Задание 2
-const age = 2007;
-alert(`Год выпуска первого iPhone ${age}`);
+const ageIphone = 2007;
+alert(`Год выпуска первого iPhone ${ageIphone}`);
 */
 
 /* Задание 3
@@ -41,8 +41,8 @@ num += 5;
 num -= 3;
 num *= 7;
 num /= 3;
-num += 1;
-num -= 1;
+num ++ 1;
+num -- 1;
 alert(num);
 */
 
