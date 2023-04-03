@@ -35,10 +35,15 @@ for (const key in obj) {
 */
 
 /* Задание 5
-for (let n = 1000, num = 5; n > 50; num++) {
+let n = 1000;
+let nam= 0;
+
+while (n >= 50) {
     n /= 2;
-    console.log (n);
+    nam++;
 }
+console.log (n);
+console.log(nam);
 */
 
 /* Задание 6
