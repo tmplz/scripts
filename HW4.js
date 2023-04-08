@@ -74,9 +74,8 @@ console.log(checkNumber(a, b));
 */
 
 /* Задание 6
-let input = prompt("Введите число");
-
 function checkNumber() {
+    let input = prompt("Введите число");
     if (isNaN(input)) {
       return 'Вы ввели неправильное значение'
     } else {
