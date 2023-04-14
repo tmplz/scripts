@@ -32,7 +32,7 @@ console.log(Math.max(52, 53, 49, 77, 21, 32));
 
 /* Задание 5
 function getRandom(minValue, maxValue) {
-    return Math.random() * (maxValue - minValue) + minValue;
+    return Math.round(Math.random() * (maxValue - minValue) + minValue);
 }
 
 console.log(getRandom(1, 10));
@@ -42,11 +42,11 @@ console.log(getRandom(1, 10));
 function getRandomNum(maxValue) {
     let getRandom = [];
     for (let i = 0; i < Math.floor(maxValue / 2); i++) {
-        getRandom[i] = Math.floor(Math.random() * maxValue);
+        getRandom[i] = Math.round(Math.random() * maxValue);
     }
     return getRandom;
 }
-console.log(getRandomNum(7));
+console.log(getRandomNum(4));
 */
 
 /* Задание 7
@@ -78,6 +78,7 @@ function currentDate(date) {
 }
 console.log(currentDate(date));
 */
+
 
 
 
